@@ -26,6 +26,10 @@ body{
     height: 60%;
     background: transparent;
 }
+.container >p{
+    margin-top: 20px;
+    color: blanchedalmond;
+}
 h1{
     
     font-size: 60px;
