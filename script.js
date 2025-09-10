@@ -16,6 +16,6 @@ function compute(){
     
     
     let TotalAmount=Number(Amount.value)+(Number(Amount.value)*Number(Tip.value)/100);
-    Result.innerHTML=`Each person must pay :$ ${TotalAmount/Number(Persons.value)}`;
+    Result.innerHTML=`Each person must pay : $ ${TotalAmount/Number(Persons.value)}`;
 }
 button.addEventListener('click',compute);
